@@ -25,7 +25,7 @@
         </ol>
       </div>
       <div class="img-container">
-        <g-image src="~/assets/images/heic.png" width="500" />
+        <g-image src="~/assets/images/heic.png" width="500" alt="heic desktop" />
       </div>
     </div>
   </Layout>
