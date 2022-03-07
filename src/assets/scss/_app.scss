@@ -65,10 +65,11 @@ a {
 }
 
 main {
-  // flex-shrink: 0 !important;
-  height: 100%;
-  display: flex;
-  align-items: center;
+  @include breakpoint(md) {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
 }
 
 footer {

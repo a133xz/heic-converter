@@ -45,8 +45,7 @@ export default {
 <style lang="scss" scoped>
 .grid-container {
   display: grid;
-
-  @media (min-width: 900px) {
+  @include breakpoint(md) {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -67,7 +66,7 @@ h1 {
     margin-bottom: 20px;
   }
 
-  @media (min-width: 900px) {
+  @include breakpoint(md) {
     display: block;
     a:nth-child(2) {
       margin-left: 20px;
@@ -91,7 +90,8 @@ ol {
 }
 
 .img-container {
-  @media (min-width: 500px) {
+  text-align: center;
+  @include breakpoint(md) {
     text-align: right;
   }
 }

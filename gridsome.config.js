@@ -20,7 +20,7 @@ module.exports = {
       use: 'gridsome-plugin-static-metadata',
       options: {
         image: '/meta.png',
-        themeColor: '#171c31',
+        themeColor: '#eaebf3',
         robots: true
       }
     },
