@@ -27,6 +27,7 @@ export default {
 header {
   display: flex;
   justify-content: flex-end;
+  margin-right: 2em;
 }
 .gh-box {
   padding: 10px;
