@@ -1,0 +1,24 @@
+// SCSS Variables
+$base-font-size: 18;
+$base-font-size-mobile: 16;
+$space-unit: 8;
+$screen-lg: 1140px;
+
+// Colors
+$colors: (
+  light: #ffffff,
+  body: #171c31,
+  bg: #eaebf3,
+  primary: #ceccff,
+  secondary: #dcfcec,
+);
+
+//  Typography Styles
+@mixin font {
+  font-family: "Inter", $font-fallback;
+}
+
+@mixin p-x-spacer-sm {
+  padding-left: $spacer-sm;
+  padding-right: $spacer-sm;
+}

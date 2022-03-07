@@ -1,0 +1,27 @@
+{
+  "home": {
+    "title": ".HEIC file converter",
+    "description": "A desktop app to convert .HEIC to .PNG or .JPG",
+    "why": {
+      "title": "How do I use it?",
+      "items": [
+        "Drag and drop your HEIC file(s)",
+        "Select PNG or JPG, then click “Convert”",
+        "After a few seconds, your converted files will be created in a new folder on your desktop. 🎉"
+      ]
+    }
+  },
+  "buttons": [
+    {
+      "icon": "windows",
+      "text": "Download .exe",
+      "link": "https://github.com/a133xz/electron-heic-png/releases/download/v1.0.11/HEIC-Converter-1.0.11.exe"
+    },
+    {
+      "icon": "mac",
+      "text": "Download .dmg",
+      "link": "https://github.com/a133xz/electron-heic-png/releases/download/v1.0.11/HEIC-Converter-1.0.11.dmg"
+    }
+  ],
+  "footer": "This app was made to stop our friends from yelling at their HEIC files. It’s free because no one deserves the pain of incompatible formats."
+}
