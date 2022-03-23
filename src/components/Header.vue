@@ -27,7 +27,11 @@ export default {
 header {
   display: flex;
   justify-content: flex-end;
-  margin-right: 2em;
+  margin-right: 50px;
+  padding-bottom: 10px;
+  @include breakpoint(mobile-only) {
+    margin: 0;
+  }
 }
 .gh-box {
   padding: 10px;

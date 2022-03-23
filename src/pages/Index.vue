@@ -46,15 +46,20 @@ export default {
 .grid-container {
   display: grid;
   @include breakpoint(md) {
-    grid-template-columns: repeat(2, 1fr);
+    // grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 450px;
   }
 }
 
 h1 {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   @media (max-width: 500px) {
     font-size: 1.2rem;
   }
+}
+
+p {
+  margin: 0;
 }
 
 .links {
@@ -90,10 +95,6 @@ ol {
 }
 
 .img-container {
-  text-align: center;
-  @include breakpoint(md) {
-    text-align: right;
-  }
 }
 
 img {

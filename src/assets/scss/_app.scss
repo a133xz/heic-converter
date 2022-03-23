@@ -30,7 +30,7 @@ body {
   @include font;
   color: var(--site-body);
   background-color: var(--site-bg);
-  line-height: 1.15;
+  line-height: 1.6;
   margin: 0;
   padding: 0;
 }
@@ -56,12 +56,14 @@ a {
 #app {
   display: flex;
   flex-direction: column;
-  height: 100vh;
 
+  justify-content: center;
   position: relative;
-  max-width: 1450px;
+  max-width: 1250px;
   padding: 25px 25px 0;
   margin: 0 auto;
+  @include breakpoint(md) {
+  }
 }
 
 main {
