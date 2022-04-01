@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="grid-container">
-      <div>
+      <div class="grid-container-left">
         <h1>{{ $t('home.title') }}</h1>
         <p>{{ $t('home.description') }}</p>
         <div class="links">
@@ -24,7 +24,7 @@
           </li>
         </ol>
       </div>
-      <div class="img-container">
+      <div class="grid-container-right">
         <g-image src="~/assets/images/heic.png" width="500" alt="heic desktop" />
       </div>
     </div>
@@ -48,6 +48,9 @@ export default {
   @include breakpoint(md) {
     // grid-template-columns: repeat(2, 1fr);
     grid-template-columns: 1fr 450px;
+  }
+  &-left {
+    padding: 0 20px;
   }
 }
 
@@ -92,9 +95,6 @@ p {
 
 ol {
   font-size: 0.9rem;
-}
-
-.img-container {
 }
 
 img {
